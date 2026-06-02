@@ -1,0 +1,22 @@
+
+.fira-code {
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.cow_image {
+  width: 100px;
+}
+
+.body {
+  background-color: black;
+}
+
+.name-title {
+  color: white;
+  font-family: Fira Code;
+  
+}
+
