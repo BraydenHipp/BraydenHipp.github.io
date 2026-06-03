@@ -1,4 +1,6 @@
-
+/* ==========================================================================
+   1. Global Styles & Typography
+   ========================================================================== */
 .fira-code {
   font-family: "Fira Code", monospace;
   font-optical-sizing: auto;
@@ -6,17 +8,70 @@
   font-style: normal;
 }
 
-.cow_image {
-  width: 100px;
+p {
+  color: white;
+  font-family: Fira Code;
+  font-size: 20px;
 }
 
 .body {
   background-color: black;
 }
 
+
+.introduction-header {
+  font-size: 50px;
+}
+
+/* ==========================================================================
+   2. Layout & Navigation
+   ========================================================================== */
+  
+.top-bar {
+  display: flex;
+}
+
 .name-title {
-  color: white;
-  font-family: Fira Code;
+  margin-top: 0px;
   
 }
 
+.home-link:hover,
+.projects-link:hover,
+.about-link:hover,
+.resume-link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.home-link {
+  padding-left: 800px;
+  margin-top: 0px;
+}
+
+
+.projects-link {
+  padding-left: 25px;
+  margin-top: 0px;
+}
+
+
+.about-link {
+  padding-left: 25px;
+  margin-top: 0px;
+}
+
+
+.resume-link {
+  padding-left: 25px;
+  padding-right: 15px;
+  margin-top: 0px;
+}
+
+.introduction-and-description {
+  margin-top: 150px;
+}
+
+.description {
+  border-color: blue;
+}
