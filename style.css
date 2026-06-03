@@ -9,13 +9,14 @@
 }
 
 p {
-  color: white;
+  color: black;
   font-family: Fira Code;
   font-size: 20px;
+  
 }
 
 .body {
-  background-color: black;
+  background-color: rgb(239, 225, 204);
 }
 
 
@@ -29,6 +30,7 @@ p {
   
 .top-bar {
   display: flex;
+  border-bottom-style: solid;
 }
 
 .name-title {
@@ -69,9 +71,62 @@ p {
 }
 
 .introduction-and-description {
-  margin-top: 150px;
+  margin-top: 50px;
+  width: 900px;
 }
 
-.description {
-  border-color: blue;
+
+
+.introduction {
+  font-size: 50px;
 }
+
+
+
+
+/* ==========================================================================
+   3. Streaks
+   ========================================================================== */
+.streak-container {
+  position: fixed;
+  bottom: 400px;
+  left: -300px;
+  width: 0;
+  height: 0;
+  z-index: -1;
+}
+
+.streak {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  transform-origin: bottom left; 
+  transform: rotate(45deg);
+}
+
+.red-streak {
+  background-color: rgb(255, 0, 0);
+  width: 700px;
+  margin-left: 250px; 
+}
+
+.yellow-streak {
+  background-color: rgb(255, 255, 0);
+  width: 700px;
+  margin-left: 180px;
+}
+
+.green-streak {
+  background-color: rgb(0, 255, 0);
+  width: 900px;
+  margin-left: 110px;
+}
+
+.blue-streak {
+  background-color: rgb(0, 255, 255);
+  width: 1100px;
+  margin-left: 40px; 
+
+}
+
