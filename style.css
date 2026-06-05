@@ -9,14 +9,14 @@
 }
 
 p {
-  color: black;
+  color: white;
   font-family: Fira Code;
   font-size: 20px;
   
 }
 
 .body {
-  background-color: rgb(239, 225, 204);
+  background-color: black;
 }
 
 
@@ -25,17 +25,17 @@ p {
 }
 
 /* ==========================================================================
-   2. Layout & Navigation
+   2. Top Naviagation Bar
    ========================================================================== */
   
 .top-bar {
   display: flex;
   border-bottom-style: solid;
+  padding-top: 10px;
 }
 
 .name-title {
-  margin-top: 0px;
-  
+  margin-top: 0;
 }
 
 .home-link:hover,
@@ -70,63 +70,82 @@ p {
   margin-top: 0px;
 }
 
+/* ==========================================================================
+   3. Introduction and Description
+   ========================================================================== */
+
 .introduction-and-description {
+  display: inline-block;
   margin-top: 50px;
-  width: 900px;
+  height: 300px;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
+
 }
-
-
 
 .introduction {
   font-size: 50px;
 }
 
+.description {
+  
+}
 
+/* ==========================================================================
+   4. Decorations
+   ========================================================================== */
+.left-side-bar {
+  display: inline-block;
+  flex: 1 0 0;
+  flex-flow: column;
+  align-items: center;
+  width: min-content;
+  align-content: center;
+  justify-content: space-between;
+  height: 1px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 0px;
+  position: relative;
+  margin-top: 100px;
+  
+}
+
+.system-text {
+  white-space: nowrap;
+  writing-mode: vertical-lr;
+}
+
+.quote-container {
+  display: inline-block;
+  margin-left: 700px;
+  margin-bottom: 50px;
+}
 
 
 /* ==========================================================================
-   3. Streaks
+   5. Symbols 
    ========================================================================== */
-.streak-container {
-  position: fixed;
-  bottom: 400px;
-  left: -300px;
-  width: 0;
-  height: 0;
-  z-index: -1;
+  
+.triangle-symbol-container {
+  display: inline-block;
 }
 
-.streak {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 50px;
-  transform-origin: bottom left; 
-  transform: rotate(45deg);
+.triangle-symbol {
+  font-size: 40px;
+  margin-left: 20px;
 }
 
-.red-streak {
-  background-color: rgb(255, 0, 0);
-  width: 700px;
-  margin-left: 250px; 
+.chinese-chars-container {
+  display: inline-block;
+  margin-left: 1300px;
+  margin-bottom: 50px;
 }
 
-.yellow-streak {
-  background-color: rgb(255, 255, 0);
-  width: 700px;
-  margin-left: 180px;
+.chinese-chars {
+  writing-mode: vertical-lr;
+  font-size: 50px;
 }
-
-.green-streak {
-  background-color: rgb(0, 255, 0);
-  width: 900px;
-  margin-left: 110px;
-}
-
-.blue-streak {
-  background-color: rgb(0, 255, 255);
-  width: 1100px;
-  margin-left: 40px; 
-
-}
-
