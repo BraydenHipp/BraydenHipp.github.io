@@ -1,6 +1,16 @@
 /* ==========================================================================
    1. Global Styles & Typography
    ========================================================================== */
+
+.hubot-sans {
+  font-family: "Hubot Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 .fira-code {
   font-family: "Fira Code", monospace;
   font-optical-sizing: auto;
@@ -88,11 +98,9 @@ p {
 
 .introduction {
   font-size: 50px;
+  font-family: "Hubot Sans";
 }
 
-.description {
-  
-}
 
 /* ==========================================================================
    4. Decorations
@@ -121,8 +129,9 @@ p {
 
 .quote-container {
   display: inline-block;
-  margin-left: 700px;
+  margin-left: 690px;
   margin-bottom: 50px;
+  width: 800px;
 }
 
 
@@ -148,4 +157,13 @@ p {
 .chinese-chars {
   writing-mode: vertical-lr;
   font-size: 50px;
+}
+
+/* ==========================================================================
+   6. Project Section
+   ========================================================================== */
+
+.project-header {
+  font-size: 50px;
+  font-family: "Hubot Sans";
 }
