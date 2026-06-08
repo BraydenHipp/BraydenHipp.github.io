@@ -160,10 +160,76 @@ p {
 }
 
 /* ==========================================================================
-   6. Project Section
+   6. Project Section Structure
    ========================================================================== */
 
 .project-header {
   font-size: 50px;
   font-family: "Hubot Sans";
+}
+
+.project-boxes-container {
+  border-color: blue;
+  border-style: solid;
+  display: block;
+  height: 610px;
+  width: 1155px;
+  margin-left: 150px;
+  margin-right: 300px;
+}
+
+.tic-tac-toe-project {
+  border-color: red;
+  border-style: solid;
+  display: inline-block;
+  height: 300px;
+  width: 560px;
+  contain: strict; /* Makes it so the container doesn't move*/
+}
+
+.c-io-project {
+  border-color: green;
+  border-style: solid;
+  display: inline-block;
+  width: 560px;
+  height: 300px;
+  contain: strict;
+}
+
+.unit-converter-project {
+  border-color: orange;
+  border-style: solid;
+  display: inline-block;
+  width: 560px;
+  height: 300px;
+  contain: strict;
+}
+
+.finance-tracker-project {
+  border-color: purple;
+  border-style: solid;
+  display: inline-block;
+  width: 560px;
+  height: 300px;
+  contain: strict;
+}
+
+/* ==========================================================================
+   7. Project Section Internals
+   ========================================================================== */
+
+.tic-tac-toe-icon {
+  width: 100px;
+}
+
+.text-file-icon {
+  width: 100px;
+}
+
+.math-symbols-icon {
+  width: 100px;
+}
+
+.pie-chart-symbol {
+  width: 100px;
 }
