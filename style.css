@@ -40,7 +40,6 @@ p {
   
 .top-bar {
   display: flex;
-  border-bottom-style: solid;
   padding-top: 10px;
 }
 
@@ -169,67 +168,130 @@ p {
 }
 
 .project-boxes-container {
-  border-color: blue;
-  border-style: solid;
+
   display: block;
   height: 610px;
-  width: 1155px;
+  width: 1200px;
   margin-left: 150px;
   margin-right: 300px;
 }
 
 .tic-tac-toe-project {
-  border-color: red;
+  border-color: rgb(71, 55, 55);
   border-style: solid;
   display: inline-block;
   height: 300px;
   width: 560px;
   contain: strict; /* Makes it so the container doesn't move*/
+  border-radius: 15px;
+  margin: 10px;
+  transition: transform 0.3s ease; 
 }
 
 .c-io-project {
-  border-color: green;
+  border-color: rgb(71, 55, 55);
   border-style: solid;
   display: inline-block;
   width: 560px;
   height: 300px;
   contain: strict;
+  border-radius: 15px;
+  margin: 10px;
+  transition: transform 0.3s ease; 
 }
 
 .unit-converter-project {
-  border-color: orange;
+  border-color: rgb(71, 55, 55);
   border-style: solid;
   display: inline-block;
   width: 560px;
   height: 300px;
   contain: strict;
+  border-radius: 15px;
+  margin: 10px;
+  transition: transform 0.3s ease; 
 }
 
 .finance-tracker-project {
-  border-color: purple;
+  border-color: rgb(71, 55, 55);
   border-style: solid;
   display: inline-block;
   width: 560px;
   height: 300px;
   contain: strict;
+  border-radius: 15px;
+  margin: 10px;
+  transition: transform 0.3s ease; 
+}
+
+.tic-tac-toe-project:hover,
+.c-io-project:hover,
+.unit-converter-project:hover,
+.finance-tracker-project:hover {
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 /* ==========================================================================
-   7. Project Section Internals
-   ========================================================================== */
+7. Tic Tac Toe Project
+========================================================================== */
+
 
 .tic-tac-toe-icon {
   width: 100px;
+  display: inline-block;
+  margin: 5px;
 }
+
+.tic-tac-toe-header {
+  font-family: "Hubot Sans";
+  display: inline-block;
+  font-size: 40px;
+  margin-top: 25px;
+  margin-left: 30px;
+  position: absolute;
+}
+
+
 
 .text-file-icon {
   width: 100px;
+  margin: 5px;
+}
+
+.c-io-header {
+  font-family: "Hubot Sans";
+  display: inline-block;
+  font-size: 40px;
+  margin-top: 25px;
+  margin-left: 80px;
+  position: absolute;
 }
 
 .math-symbols-icon {
-  width: 100px;
+  width: 115px;
+  margin: 0px;
 }
 
-.pie-chart-symbol {
-  width: 100px;
+.unit-converter-header {
+  font-family: "Hubot Sans";
+  display: inline-block;
+  font-size: 40px;
+  margin-top: 30px;
+  margin-left: 20px;
+  position: absolute;
+}
+
+.pie-chart-icon {
+  width: 90px;
+  margin: 5px;
+}
+
+.finance-tracker-header {
+  font-family: "Hubot Sans";
+  display: inline-block;
+  font-size: 40px;
+  margin-top: 25px;
+  margin-left: 20px;
+  position: absolute;
 }
