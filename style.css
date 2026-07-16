@@ -154,7 +154,11 @@ a {
   margin-right: 100px;
 }
 
-.tic-tac-toe-project {
+.tic-tac-toe-project,
+.pi-dashboard-project,
+.unit-converter-project,
+.finance-tracker-project, 
+.spotify-api-project{
   border-color: rgb(71, 55, 55);
   border-style: solid;
   display: inline-block;
@@ -166,46 +170,12 @@ a {
   transition: transform 0.3s ease; 
 }
 
-.pi-dashboard-project {
-  border-color: rgb(71, 55, 55);
-  border-style: solid;
-  display: inline-block;
-  width: 560px;
-  height: 300px;
-  contain: strict;
-  border-radius: 15px;
-  margin: 10px;
-  transition: transform 0.3s ease; 
-}
-
-.unit-converter-project {
-  border-color: rgb(71, 55, 55);
-  border-style: solid;
-  display: inline-block;
-  width: 560px;
-  height: 300px;
-  contain: strict;
-  border-radius: 15px;
-  margin: 10px;
-  transition: transform 0.3s ease; 
-}
-
-.finance-tracker-project {
-  border-color: rgb(71, 55, 55);
-  border-style: solid;
-  display: inline-block;
-  width: 560px;
-  height: 300px;
-  contain: strict;
-  border-radius: 15px;
-  margin: 10px;
-  transition: transform 0.3s ease; 
-}
 
 .tic-tac-toe-project:hover,
 .pi-dashboard-project:hover,
 .unit-converter-project:hover,
-.finance-tracker-project:hover {
+.finance-tracker-project:hover,
+.spotify-api-project:hover {
   transform: scale(1.05);
   cursor: pointer;
 }
@@ -215,13 +185,11 @@ a {
 ========================================================================== */
 
 
-.tic-tac-toe-icon {
-  width: 100px;
-  display: inline-block;
-  margin: 5px;
-}
-
-.tic-tac-toe-header {
+.tic-tac-toe-header,
+.pi-dashboard-header,
+.unit-converter-header,
+.finance-tracker-header,
+.spotify-api-header{
   font-family: "Hubot Sans";
   display: inline-block;
   font-size: 40px;
@@ -230,64 +198,44 @@ a {
   position: absolute;
 }
 
-.tic-tac-toe-description {
+.tic-tac-toe-description,
+.pi-dashboard-description,
+.unit-converter-description,
+.spotify-api-description {
   margin: 10px;
   text-align: center;
 }
 
 .dashboard-icon {
   width: 85px;
-  margin: 5px;
-}
-
-.pi-dashboard-header {
-  font-family: "Hubot Sans";
-  display: inline-block;
-  font-size: 40px;
-  margin-top: 25px;
-  margin-left: 55px;
-  position: absolute;
-}
-
-.pi-dashboard-description {
-  margin: 10px;
-  text-align: center;
+  padding: 5px;
 }
 
 .math-symbols-icon {
   width: 115px;
-  margin: 0px;
-}
-
-.unit-converter-header {
-  font-family: "Hubot Sans";
-  display: inline-block;
-  font-size: 40px;
-  margin-top: 30px;
-  margin-left: 20px;
-  position: absolute;
-}
-
-.unit-converter-description {
-  margin: 10px;
-  text-align: center;
+  padding: 0px;
 }
 
 .pie-chart-icon {
   width: 90px;
-  margin: 5px;
+  padding: 5px;
 }
 
-.finance-tracker-header {
-  font-family: "Hubot Sans";
+.tic-tac-toe-icon {
+  width: 100px;
   display: inline-block;
-  font-size: 40px;
-  margin-top: 25px;
-  margin-left: 20px;
-  position: absolute;
+  padding: 5px;
 }
 
-.finance-tracker-description{
+.radio-waves-icon {
+  display: inline-block; 
+  width: 80px;
+  padding: 10px
+}
+
+
+.finance-tracker-description {
+  padding-top: 30px;
   margin: 10px;
   text-align: center;
 }
